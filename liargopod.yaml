@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: liargopod
+  namespace: liargons
+spec:
+  containers:
+  - name: liargocontainername
+    image: tomcat:8
